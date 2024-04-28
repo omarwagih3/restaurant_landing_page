@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  margin-bottom: 26px;
+}
+
+/* .paragraph {
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(23, 160, 160);
+}
+
+h2 {
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+} */
+
+/* .image {
+  width: 100%;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  width: 30%;
+  float: left;
+  margin-inline-end: 15px;
+}
+
+.clr {
+  clear: both;
+}
+
+.text {
+  background-color: gray;
+  width: 350px;
+  height: 350px;
+  padding: 20px 150px;
+  margin: 50px;
+}
+
+.text-1 {
+  background-color: rgb(116, 39, 39);
+  width: 350px;
+  height: 350px;
+  margin-left: 410px;
+} */
+
+.main {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./imgs/herbs-backgorund.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.heading {
+  position: fixed;
+  display: flex;
+  gap: 960px;
+  background-color: rgba(0, 0, 0, 0.492);
+  width: 100vw;
+  height: 75px;
+}
+
+.heading-links {
+  font-size: 18px;
+  text-align: right;
+  padding: 25px 0;
+}
+
+.heading-link {
+  margin-inline-end: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(222, 222, 222, 0.973);
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.heading-logo {
+  height: 75px;
+}
+
+.bio {
+  margin-top: 210px;
+  text-align: center;
+  color: white;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.quote {
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  font-weight: 700;
+  /* font-style: italic; */
+  margin-bottom: 12px;
+}
+
+.btn-1,
+.btn-2 {
+  background-color: rgb(194, 168, 135);
+  border: 0;
+  height: 45px;
+  width: 120px;
+  font-weight: 600;
+}
+
+.btn-2 {
+  background-color: azure;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  cursor: pointer;
+}
+
+.about {
+  padding: 80px 60px;
+}
+
+.about__paragraph {
+  width: 35%;
+  float: left;
+  margin-inline-end: 287px;
+}
+
+.about__pic {
+  width: 622px;
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
